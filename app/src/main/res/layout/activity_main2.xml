@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context="com.example.hpjaiswal.probing.Main2Activity">
+
+    <TextView
+        android:id="@+id/keys"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="keys:"/>
+    <EditText
+        android:id="@+id/addkey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Add Keys"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/addbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="add"
+        android:onClick="add"/>
+</LinearLayout>
